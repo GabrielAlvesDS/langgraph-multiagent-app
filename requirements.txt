@@ -1,4 +1,4 @@
-streamlit==1.18.1
+streamlit==1.44.1
 python-dotenv==1.1.0
 langchain==0.3.24
 langchain-core==0.3.56
