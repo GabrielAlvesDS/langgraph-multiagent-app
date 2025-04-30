@@ -158,7 +158,7 @@ with st.sidebar:
     - No modo **Criativo**, o agente utiliza sua capacidade de geração de ideias inovadoras para explorar conceitos fora da caixa, ideal para brainstorming e geração de novas ideias.
     """, unsafe_allow_html=True)
     
-    mode = st.radio("🧭 Escolha o modo:", ["solucionador", "criativo"])
+    mode = st.radio("Escolha o modo:", ["solucionador", "criativo"])
     st.session_state.mode = mode
 
 # Coluna principal - Seletor de modo e interação com o modelo
